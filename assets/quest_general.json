@@ -1,0 +1,375 @@
+[
+    {
+    "id": 100,
+    "message": "Avez vous une voiture ?",
+    "answers": [{
+        "id": 101,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 102,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 110,
+    "message": "Avez-vous une place de parking gratuite comprise dans votre logement ?",
+    "answers": [{
+        "id": 111,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 112,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 120,
+    "message": "Vous utilisez votre voiture pour :",
+    "answers": [{
+        "id": 121,
+        "message": "Aller travailler",
+        "type": "button"
+    }, {
+        "id": 122,
+        "message": "Aller aux courses",
+        "type": "button"
+    }, {
+        "id": 123,
+        "message": "Aller en vacances",
+        "type": "button"
+    }, {
+        "id": 124,
+        "message": "Jamais",
+        "type": "button"
+    }],
+    "options" : {
+        "multipleAnswers" : true
+    }
+}, {
+    "id": 130,
+    "message": "Combien de temps par jour votre voiture est-elle en dehors de sa place habituelle ?",
+    "answers": [{
+        "id": 131,
+        "message": "Jamais",
+        "type": "button"
+    }, {
+        "id": 132,
+        "message": "De 1h à 5h",
+        "type": "button"
+    }, {
+        "id": 133,
+        "message": "De 5h à 8h",
+        "type": "button"
+    }, {
+        "id": 134,
+        "message": "De 8h à 12h",
+        "type": "button"
+    }, {
+        "id": 135,
+        "message": "+ de 12h",
+        "type": "button"
+    }, {
+        "id": 136,
+        "message": "J'ai une place mais pas de voiture",
+        "type": "button"
+    }]
+}, {
+    "id": 140,
+    "message": "Diriez vous que trouver une place pour vous garer est compliqué ?",
+    "answers": [{
+        "id": 141,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 142,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 150,
+    "message": "Ou garez vous votre voiture ?",
+    "answers": [{
+        "id": 151,
+        "message": "Sur place payante compris dans mon logement",
+        "type": "button"
+    }, {
+        "id": 152,
+        "message": "Sur place gratuite compris dans mon logement",
+        "type": "button"
+    }, {
+        "id": 153,
+        "message": "Sur une place payante dans la rue",
+        "type": "button"
+    }, {
+        "id": 154,
+        "message": "Sur une place gratuite",
+        "type": "button"
+    }, {
+        "id": 155,
+        "message": "Je n'ai pas de voiture",
+        "type": "button"
+    }],
+    "options" : {
+        "multipleAnswers" : true
+    }
+}, {
+    "id": 160,
+    "message": "Pour garer une voiture, vous utilisez :",
+    "answers": [{
+        "id": 161,
+        "message": "Un abonnement mensuel",
+        "type": "button"
+    }, {
+        "id": 162,
+        "message": "Le parcometre",
+        "type": "button"
+    }, {
+        "id": 163,
+        "message": "Aucun, je tourne pour trouver une place gratuite",
+        "type": "button"
+    }, {
+        "id": 164,
+        "message": "Autre",
+        "type": "textinput"
+    }]
+}, {
+    "id": 170,
+    "message": "Votre budget par mois pour garer votre voiture vous coûte environ :",
+    "answers": [{
+        "id": 171,
+        "message": "0 €",
+        "type": "button"
+    }, {
+        "id": 172,
+        "message": "Entre 0 et 50€",
+        "type": "button"
+    }, {
+        "id": 173,
+        "message": "Entre 50 et 100€",
+        "type": "button"
+    }, {
+        "id": 174,
+        "message": "Entre 100 et 150€",
+        "type": "button"
+    }, {
+        "id": 175,
+        "message": "+ de 150€",
+        "type": "button"
+    }]
+}, {
+    "id": 180,
+    "message": "Votre place de parking est libre plutôt :",
+    "answers": [{
+        "id": 181,
+        "message": "En semaine",
+        "type": "button"
+    }, {
+        "id": 182,
+        "message": "Le week-end",
+        "type": "button"
+    }, {
+        "id": 183,
+        "message": "Lorsque je pars en vacances",
+        "type": "button"
+    }, {
+        "id": 184,
+        "message": "Jamais, je n'en ai pas",
+        "type": "button"
+    }],
+    "options" : {
+        "multipleAnswers" : true
+    }
+}, {
+    "id": 190,
+    "message": "Si vous aviez la possibilité de louer une place de parking à un particulier mis à disposition sur une application, seriez vous intéressé ?",
+    "answers": [{
+        "id": 191,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 192,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 200,
+    "message": "Si vous avez la possibilité vous même de louer votre place de parking, seriez vous intéressé pour la louer ? ",
+    "answers": [{
+        "id": 201,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 202,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 210,
+    "message": "Vous seriez intéressé par louer votre place de parking pour : ",
+    "answers": [{
+        "id": 211,
+        "message": "Arrondir mes fins de mois",
+        "type": "button"
+    }, {
+        "id": 212,
+        "message": "Rembourser ce que je débourse pour me garer/payer ma place de parking",
+        "type": "button"
+    }, {
+        "id": 213,
+        "message": "Pouvoir moi même l’utiliser pour savoir ou me garer",
+        "type": "button"
+    }, {
+        "id": 214,
+        "message": "Je ne serai pas intéressé ",
+        "type": "button"
+    }],
+    "options" : {
+        "multipleAnswers" : true
+    }
+}, {
+    "id": 220,
+    "message": "Si votre voiture est assurée a 100% en cas de dommage, et que vous aviez la possibilité de la laisser pour de la location sous gestion tierce lorsque vous ne l’utilisez pas (pendant votre travail, vacances…), le feriez vous ?",
+    "answers": [{
+        "id": 221,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 222,
+        "message": "Non",
+        "type": "button"
+    }]
+}, {
+    "id": 230,
+    "message": "Vous le feriez :",
+    "answers": [{
+        "id": 231,
+        "message": "Pendant vos vacances",
+        "type": "button"
+    }, {
+        "id": 232,
+        "message": "Pendant mes heures de travail",
+        "type": "button"
+    }, {
+        "id": 233,
+        "message": "En semaine",
+        "type": "button"
+    }, {
+        "id": 234,
+        "message": "Le week-end",
+        "type": "button"
+    }],
+    "options" : {
+        "multipleAnswers" : true
+    }
+}, 
+{
+    "id": 240,
+    "message": "Dans le cadre de ce questionnaire, pouvons-nous eventuellement vous recontacter : ",
+    "answers": [{
+        "id": 241,
+        "message": "Oui",
+        "type": "button"
+    }, {
+        "id": 242,
+        "message": "Non",
+        "type": "button"
+    }]
+},
+{
+    "id": 250,
+    "message": "Par quel moyen souhaitez vous être contacté ?",
+    "answers": [{
+        "id": 251,
+        "message": "Téléphone",
+        "type": "button"
+    }, {
+        "id": 252,
+        "message": "Mail",
+        "type": "button"
+    }]
+},
+{
+    "id": 260,
+    "message": "Merci de rentrer une adresse / numéro de contact :",
+    "answers": [{
+        "id": 241,
+        "message": "Téléphone ou email",
+        "type": "textinput"
+    }]
+},
+{
+    "id": 270,
+    "message": "Vous êtes :",
+    "answers": [{
+        "id": 271,
+        "message": "Une femme",
+        "type": "button"
+    }, {
+        "id": 272,
+        "message": "Un homme",
+        "type": "button"
+    }, {
+        "id": 273,
+        "message": "Je préfère ne pas répondre",
+        "type": "button"
+    }]
+}, {
+    "id": 280,
+    "message": "Quel âge avez vous ? ",
+    "answers": [{
+        "id": 281,
+        "message": "Entre 18 et 25 ans",
+        "type": "button"
+    }, {
+        "id": 282,
+        "message": "Entre 25 et 40 ans",
+        "type": "button"
+    }, {
+        "id": 283,
+        "message": "Entre 40 et 55 ans",
+        "type": "button"
+    }, {
+        "id": 284,
+        "message": "55 ans et plus",
+        "type": "button"
+    }]
+}, {
+    "id": 290,
+    "message": "Ou habitez vous ?",
+    "answers": [{
+        "id": 291,
+        "message": "Votre ville",
+        "type": "textinput"
+    }]
+},
+{
+    "id": 300,
+    "message": "Vous êtes : ",
+    "answers": [{
+        "id": 301,
+        "message": "Agriculteur ",
+        "type": "button"
+    }, {
+        "id": 302,
+        "message": "Artisan",
+        "type": "button"
+    }, {
+        "id": 303,
+        "message": "Commercant",
+        "type": "button"
+    }, {
+        "id": 304,
+        "message": "Chef d'entreprise",
+        "type": "button"
+    }, {
+        "id": 305,
+        "message": "Cadre",
+        "type": "button"
+    }, {
+        "id": 306,
+        "message": "Sans activité",
+        "type": "button"
+    }]
+}
+]

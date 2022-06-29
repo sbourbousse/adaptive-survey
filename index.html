@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+        <meta name="viewport" content="user-scalable=0">
+        <script src="js/class/Question.js"></script>
+        <script src="js/main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/css/main.css" type="text/css">
+        
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="questions-page">
+                <div class="page-header">
+                    <h1 class="title">Questionnaire</h1>
+                </div>
+                <div class="page-content">
+                    <div class="content-head">
+                        <div class="indicator"></div>
+                        <div class="stepper-container" data-selector="question-list-container">
+                            <div class="stepper-overflow" data-selector="question-list">
+                                <div class="stepper-number">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-body">
+                        <div class="question-container" data-selector="container"> 
+                            <div class="question" data-selector="question">
+                            </div>
+                            <div class="answers" data-selector="answer-list">
+                            </div>
+                        </div>
+                        <div class="form-action-container">
+                            <div class="action-border-round" data-selector="previous-question">
+                                <img src="./assets/icons/chevron-left-solid.svg" alt="">
+                            </div>
+                            <div class="action-submit" data-selector="answer-save">Enregistrer</div>
+                            <div class="action-border-round disabled">
+                                <img src="./assets/icons/chevron-right-solid.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://kit.fontawesome.com/bf3aa7a9c8.js" crossorigin="anonymous"></script>
+</html>
